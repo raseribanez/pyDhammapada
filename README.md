@@ -19,6 +19,8 @@ In the Hakagure version I had trouble, because the verses are really long, so wi
 
 Use:
 ------
+* Both versions require the same text file (dhammapada.txt) to store and show verses
 * Written and tested in Python 3
 * Needs no extra modules (plain version is just python3 and GUI version uses Tkinter which comes with python by default)
 * Just run the Python file as normal (open and run in IDLE, or another IDE, or with a terminal command)  
+
