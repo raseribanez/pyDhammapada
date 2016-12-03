@@ -3,7 +3,7 @@ Displays random verses from a Buddhist book called the Dhammapada
 
 I have another program that is very similar - called Hakagure.
 
-This version has the WHILE book (The Dhammapada) stored in a text file, and when the button is selected, a random verse is displayed to the user. The GUI version allows the user to just keep clicking to see new verses, and the text version asks the user if they want another verse.
+This version has the WHOLE book (The Dhammapada) stored in a text file, and when the button is selected, a random verse is displayed to the user. The GUI version allows the user to just keep clicking to see new verses, and the text version asks the user if they want another verse.
 
 This book is quite personal to me, I have taken a lot of wosdom and advice from within its pages, and applied it to real life. Even if you are not a full procticing Buddhist, you can get a lot from this book. It is freely available to read or download, as long as it is in a non-profit way, so not to make money off it. 
 
