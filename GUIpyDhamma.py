@@ -34,7 +34,7 @@ class MainApplication(tk.Frame):
                 while 1:
                     line = f.readline()
                     if not line: break
-                    line_num += 1
+                    line_num += 1 
                     if random.uniform(0, line_num) < 1:
                         selected_line = line
                         
