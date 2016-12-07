@@ -17,12 +17,14 @@ import random
 import Tkinter as tk
 from Tkinter import *
 
-# This class template was my original one. It includes a lot of arguments of which
-# I feel my level of programs don't need. I have since made a lighter class template
-# for my GUI apps and plan to update them all soon
+''' This class template was my original one. It includes a lot of arguments of which
+    I feel my level of programs don't need. I have since made a lighter class template
+    for my GUI apps and plan to update them all soon. For now I have commented out any
+    un-needed args '''
+
 class MainApplication(tk.Frame):
-    def __init__(self, parent, *args, **kwargs):
-        tk.Frame.__init__(self, parent, *args, **kwargs)
+    def __init__(self, parent):  #, *args, **kwargs):
+        tk.Frame.__init__(self, parent)  #, *args, **kwargs)
         self.parent = parent
 
         def random_line():
@@ -38,9 +40,10 @@ class MainApplication(tk.Frame):
                         
             return selected_line.strip()
 
+        # Py 3 required the print parentheses
         def print_a_verse():
-            print random_line()
-            print "\n"
+            print (random_line())
+            print ("\n")
 
         btn_result = Button(self, fg='Red', text='New Verse', bg='Black', font='freesansbold, 16', command=print_a_verse) #textvariable=cvt_to, font='freesansbold, 16', fg='Blue')
         btn_result.pack(fill=X,side=TOP)#fill=BOTH, expand=1)
