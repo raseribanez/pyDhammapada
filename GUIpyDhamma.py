@@ -17,6 +17,9 @@ import random
 import Tkinter as tk
 from Tkinter import *
 
+# This class template was my original one. It includes a lot of arguments of which
+# I feel my level of programs don't need. I have since made a lighter class template
+# for my GUI apps and plan to update them all soon
 class MainApplication(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
